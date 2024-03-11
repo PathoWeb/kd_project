@@ -15,13 +15,16 @@ export default function Footer () {
       {/* start gray circle */}
       <div className='bg-circle'>
         <div className='footer-contents absolute z-10 w-full h-full text-center mt-12 max-[780px]:mt-28 max-[450px]:mt-32'>
+          {/* footer about me and quick access and map */}
           <div className='footer-content flex items-center flex-wrap justify-around max-[780px]:flex-row-reverse'>
+            {/* footer about me */}
             <div className='footer-content-intro w-60'>
               <p className='footer-intro-text'>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
                 استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله
               </p>
             </div>
+            {/* footer quick access */}
             <div className='footer-content-access '>
               <h5 className='mb-3 text-[#006fca]'>دسترسی سریع</h5>
               <div className='footer-access flex items-center'>
@@ -95,18 +98,21 @@ export default function Footer () {
           </div>
           {/* start footer address and phone number and media link */}
           <div className='footer-info flex justify-around items-center flex-wrap my-10 gap-5'>
+            {/* footer address */}
             <div className='footer-info-content w-50 flex justify-around items-center'>
               <FaLocationDot className=' text-2xl text-[#006fca]' />
               <p className='footer-address'>
                 تهران - ونک - گاندی جنوبی - کوچه بیستم
               </p>
             </div>
+            {/* footer phone number */}
             <div className='footer-info-content flex justify-around items-center'>
               <span>
                 <FaPhoneAlt className='text-2xl text-[#006fca]' />
               </span>
               <p className='footer-phone mr-2'>09032323233</p>
             </div>
+            {/* footer social media link */}
             <div className='footer-info-content flex justify-around items-center '>
               <Link to='/' className='footer-social'>
                 <FaTelegramPlane className=' text-2xl text-[#006fca]' />
