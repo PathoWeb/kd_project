@@ -1,1 +1,17 @@
 @import './reset.css';
+@font-face {
+  font-family: sade;
+  src: url('./assets/fonts/A-Sade.ttf');
+}
+@font-face {
+  font-family: sans;
+  src: url('./assets/fonts/Far_Casablanca.ttf');
+}
+
+:root {
+  --def-font: sans;
+}
+
+.app {
+  font-family: var(--def-font);
+}

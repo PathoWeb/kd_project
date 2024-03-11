@@ -5,7 +5,9 @@ import IndexPage from './Pages/IndexPage/IndexPage'
 function App () {
   return (
     <>
-      <IndexPage />
+      <div className='app'>
+        <IndexPage />
+      </div>
     </>
   )
 }
