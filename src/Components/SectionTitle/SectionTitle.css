@@ -1,0 +1,26 @@
+.title {
+  position: relative;
+  width: 200px;
+}
+
+.title::before {
+  content: '';
+  position: absolute;
+  top: 5px;
+  right: -30px;
+  height: 30px;
+  width: 50px;
+  background-color: #06bfeb;
+  clip-path: polygon(53% 0, 0 50%, 53% 100%);
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  top: 5px;
+  left: -30px;
+  height: 30px;
+  width: 50px;
+  background-color: #06bfeb;
+  clip-path: polygon(53% 0, 100% 50%, 53% 100%);
+}
